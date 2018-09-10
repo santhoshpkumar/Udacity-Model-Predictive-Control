@@ -51,7 +51,7 @@ The kinematic model includes the vehicle's x and y coordinates, orientation angl
 
 #### Timestep Length and Elapsed Duration (N & dt): 
 
-The values chosen for N and dt are 10 and 0.1, respectively. These values mean that the optimizer is considering a one-second duration in which to determine a corrective trajectory. Adjusting either N or dt (even by small amounts) often produced erratic behavior. Other values tried include 20 / 0.05, 8 / 0.125, 6 / 0.15, and many others.
+The values chosen for N and dt are 10 and 0.1, respectively. These values mean that the optimizer is considering a one-second duration in which to determine a corrective trajectory. Adjusting either N or dt (even by small amounts) often produced erratic behavior. Other values tried include (20 / 0.05), (8 / 0.125), (6 / 0.15), and many others.
 
 #### Polynomial Fitting and MPC Preprocessing: 
 
